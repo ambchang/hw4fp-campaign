@@ -6,23 +6,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>No Palantir in the NHS campaign toolkit</title>
         <meta name="description" content="The online tooklit of the 'No Palantir in the NHS' campaign including resources, actions, and contact information">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="container">
             <nav>
-                <ul>
-                    <li>Context</li>
-                    <li>Actions</li>
-                    <li>Contact</li>
+                <ul class="menu">
+                    <li><a href="#">Background</a></li>
+                    <li><a href="#">Strategy</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="title">
-                <h1>No Palantir in the NHS</h1>
-            </div>
         </header>
+        <section id="hero" class="container">
+            <div class="grid">
+                <h1 class="title">NO PALANTIR IN THE NHS</h1>
+                <p class="subtitle">The campaign toolkit</p>
+                <div class="action-buttons">
+                    <button type="button" class="button primary-button">Take action</button>
+                    <button type="button" class="button secondary-button">Learn more about the campaign</button>                
+                </div>
+            </div>
+        </section>
+        <section id="overview" class="container grid">
+            <p>A few lines go here summarising the campaign and what this toolkit contains.</p>
+            <h2>OUR KEY DEMANDS FOR NHS ENGLAND:</h2>
+                <ol>
+                    <li>Cancel the contract with Palantir</li>
+                    <li>End the outsourcing, privatisation and asset stripping of the NHS</li>
+                    <li>End all contracts with companies complicit in the Israeli occupation</li>
+                </ol>
+        </section>
     </body>
 </html>
